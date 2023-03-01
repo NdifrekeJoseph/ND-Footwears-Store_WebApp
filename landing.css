@@ -1,0 +1,1174 @@
+                                    * {
+                                        margin: 0;
+                                        padding: 0;
+                                        box-sizing: border-box;
+                                        font-family: "Gloock", "Roboto";
+                                    }
+                                    
+                                    .nowrap {
+                                        white-space: nowrap;
+                                    }
+                                    
+                                    body {
+                                        /* background-image: url(./asset/festac_street-art/pexels-tobias-bjørkli-2119706.jpg); */
+                                        background-image: url(./asset/men_black_slipper.JPG);
+                                        /* background-position: center; */
+                                        background-position-y: bottom;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        width: 100vw;
+                                        min-height: 100vh;
+                                        place-content: center;
+                                        place-items: center;
+                                        align-items: center;
+                                        align-content: center;
+                                    }
+                                    
+                                    .container {
+                                        /* border: .3rem solid gray; */
+                                        padding: 16px;
+                                        width: 80%;
+                                        height: auto;
+                                        position: absolute;
+                                        top: 40%;
+                                        left: 10%;
+                                        box-sizing: content-box;
+                                    }
+                                    
+                                    .justify {
+                                        place-items: center;
+                                        place-content: center;
+                                        margin: 5px;
+                                        padding: 5px;
+                                        box-shadow: 7px 4px 7px #000000;
+                                    }
+                                    
+                                    h1 {
+                                        color: #fff;
+                                        text-shadow: 2.5px 2.5px 8px #000000;
+                                        font-size: 500%;
+                                    }
+                                    
+                                    p {
+                                        place-content: center;
+                                        border: 0.3rem solid gray;
+                                        border-radius: 1rem;
+                                        background-color: #745139;
+                                        width: 25%;
+                                        padding: 8px;
+                                    }
+                                    
+                                    p a {
+                                        text-transform: capitalize;
+                                        padding: 5px;
+                                    }
+                                    
+                                    p:hover {
+                                        background-color: #0e3838;
+                                        border: 0.24rem solid #fff;
+                                    }
+                                    
+                                    p a {
+                                        text-decoration: none;
+                                        color: #fff;
+                                    }
+                                    
+                                    p a:hover {
+                                        text-decoration: underline;
+                                        color: #fff;
+                                    }
+                                    
+                                    @media (min-width: 260px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 247px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 39%;
+                                            left: 5%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 65%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 26%;
+                                            text-align: center;
+                                            font-size: 6px;
+                                            font-weight: 230;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 90px;
+                                            padding: 2px;
+                                            margin-top: 12px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 300px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 270px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 39%;
+                                            left: 6%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 80%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 8px;
+                                            font-weight: 270;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 90px;
+                                            padding: 2px;
+                                            margin-top: 14px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 330px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 300px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 39%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 90%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 300;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 90px;
+                                            padding: 3px;
+                                            margin-top: 14px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 350px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 320px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 39%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 90%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 300;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 90px;
+                                            padding: 3px;
+                                            margin-top: 14px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 376px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 356px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 100%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 340;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 110px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 390px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 376px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 105%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 115px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 415px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 376px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 110%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 120px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 430px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 415px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 118%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 120px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 445px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 430px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 122%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 120px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 460px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 445px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 126%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 120px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 490px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 490px;
+                                            border: .2rem solid skyblue;
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 136%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 430;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 125px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 505px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 490px;
+                                            border: .2rem solid skyblue;
+                                            padding: 10px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 140%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 460;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 125px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 535px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 520px;
+                                            border: .2rem solid skyblue;
+                                            padding: 20px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 5.4%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 9px;
+                                            padding: 9px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 2px 2px 6px #000000;
+                                            font-size: 147%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 10px;
+                                            font-weight: 460;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 125px;
+                                            padding: 6px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #3279798c;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 550px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 535px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 20px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 32.5%;
+                                            left: 6%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 10px;
+                                            padding: 18px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 3.5px 3.5px 6px #000000;
+                                            font-size: 150%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 30%;
+                                            text-align: center;
+                                            font-size: 11px;
+                                            font-weight: 600;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 146px;
+                                            padding: 7px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #327979e1;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 576px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 540px;
+                                            /* border: .2rem solid skyblue; */
+                                            padding: 20px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 32.5%;
+                                            left: 6%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 11px;
+                                            padding: 20px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 3.5px 3.5px 6px #000000;
+                                            font-size: 158%;
+                                        }
+                                        span {
+                                            /* background-image: linear-gradient(to right, skyblue, aliceblue, skyblue); */
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 32%;
+                                            text-align: center;
+                                            font-size: 12px;
+                                            font-weight: 660;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 150px;
+                                            padding: 9px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #327979e1;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 768px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 720px;
+                                            /* border: .2rem solid #fff; */
+                                            padding: 20px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 30.5%;
+                                            left: 7%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 11px;
+                                            padding: 20px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 3.5px 3.5px 6px #000000;
+                                            font-size: 220%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 36%;
+                                            text-align: center;
+                                            font-size: 14px;
+                                            font-weight: 700;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 157px;
+                                            padding: 12px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #327979e1;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 992px) {
+                                        body {
+                                            background-position: cover;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 100vw;
+                                            min-height: 100vh;
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 960px;
+                                            border: .2rem solid skyblue;
+                                            padding: 20px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 30.5%;
+                                            left: 8%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 11px;
+                                            padding: 20px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 3.5px 3.5px 6px #000000;
+                                            font-size: 260%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 38%;
+                                            text-align: center;
+                                            font-size: 18px;
+                                            font-weight: 750;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 200px;
+                                            padding: 15px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #327979e1;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 1200px) {
+                                        body {
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 1140px;
+                                            border: .2rem solid skyblue;
+                                            padding: 20px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 23%;
+                                            left: 8%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 11px;
+                                            padding: 20px;
+                                            box-shadow: 7px 4px 7px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 3.5px 3.5px 6px #000;
+                                            font-size: 350%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 38%;
+                                            text-align: center;
+                                            font-size: 18px;
+                                            font-weight: 750;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid #fff;
+                                            border-radius: 5px;
+                                            background-color: #8a0606e1;
+                                            width: 200px;
+                                            padding: 15px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #000;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    }
+                                    /* @media (min-width: 1400px) {
+                                        body {
+                                            place-content: center;
+                                            place-items: center;
+                                            align-items: center;
+                                            align-content: center;
+                                        }
+                                        .container {
+                                            max-width: 1320px;
+                                            border: .2rem solid skyblue;
+                                            padding: 20px;
+                                            height: auto;
+                                            position: absolute;
+                                            top: 23%;
+                                            left: 8.8%;
+                                            box-sizing: content-box;
+                                        }
+                                        .justify {
+                                            margin: 11px;
+                                            padding: 20px;
+                                            box-shadow: 9px 6px 9px #000000;
+                                        }
+                                        h1 {
+                                            color: #fff;
+                                            text-shadow: 3.5px 3.5px 6px #000;
+                                            font-size: 400%;
+                                        }
+                                        span {
+                                            background-image: linear-gradient(to right, skyblue, aliceblue, skyblue);
+                                        }
+                                        p {
+                                            position: relative;
+                                            left: 34%;
+                                            text-align: center;
+                                            font-size: 18px;
+                                            font-weight: 750;
+                                            box-shadow: 5px 8px 5px #0f0f0f;
+                                            border: 0.2rem solid skyblue;
+                                            border-radius: 5px;
+                                            background-color: #3279798c;
+                                            width: 300px;
+                                            padding: 15px;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            -ms-border-radius: 5px;
+                                            -o-border-radius: 5px;
+                                        }
+                                        p:hover {
+                                            background-color: #327979e1;
+                                            border: 0.2rem solid #fff;
+                                        }
+                                    } */
